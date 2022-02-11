@@ -72,7 +72,7 @@ void LayersManager::ProcessInputs()
 			if (IsMouseButtonDown(MOUSE_LEFT_BUTTON))
 			{
 				layers[actualLayer - 1].AddTile(mousePosInGrid);
-				PlaceTileCommand command = PlaceTileCommand(&layers[actualLayer - 1], mousePosInGrid);
+				PlaceTileCommand* command = new PlaceTileCommand(&layers[actualLayer - 1], mousePosInGrid);
 				Game::instance().GetCommandManager().GetCommandList()->push(command);
 
 			}

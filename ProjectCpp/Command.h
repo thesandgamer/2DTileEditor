@@ -43,11 +43,11 @@ class CommandManager
 public:
 	CommandManager() {};
 
-	void CtrlZ() { commandList.top().undo(); }
+	void CtrlZ() { commandList.top()->undo();}
 
-	stack<PlaceTileCommand>* GetCommandList() { return &commandList; }
+	stack<Command*>* GetCommandList() { return &commandList; }
 
 private:
-	stack<PlaceTileCommand> commandList;
+	stack<Command*> commandList;
 
 };
