@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{E9C7FDCE-D52A-8D73-7EB0-C5296AF258F6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Grid">
+      <UniqueIdentifier>{7546c42a-ab43-45ed-9197-417bb72fb6b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Layers">
+      <UniqueIdentifier>{9ddca0f1-ae83-4f90-9030-f23e0837fbe9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ui">
+      <UniqueIdentifier>{488c0e05-6ef2-4b6b-b1df-1459e02acfe8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Command">
+      <UniqueIdentifier>{77d6e155-74a2-4707-a676-a2bdd924ddc8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Grid.cpp">
+      <Filter>Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="Tile.cpp">
+      <Filter>Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="LayersManager.cpp">
+      <Filter>Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="Layer.cpp">
+      <Filter>Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="NinceSliceBox.cpp">
+      <Filter>Ui</Filter>
+    </ClCompile>
+    <ClCompile Include="UiElements.cpp">
+      <Filter>Ui</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>Ui</Filter>
+    </ClCompile>
+    <ClCompile Include="LayerButton.cpp">
+      <Filter>Ui</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Grid.h">
+      <Filter>Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="Tile.h">
+      <Filter>Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="LayersManager.h">
+      <Filter>Layers</Filter>
+    </ClInclude>
+    <ClInclude Include="Layer.h">
+      <Filter>Layers</Filter>
+    </ClInclude>
+    <ClInclude Include="NinceSliceBox.h">
+      <Filter>Ui</Filter>
+    </ClInclude>
+    <ClInclude Include="UiElements.h">
+      <Filter>Ui</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>Ui</Filter>
+    </ClInclude>
+    <ClInclude Include="IUi.h">
+      <Filter>Ui</Filter>
+    </ClInclude>
+    <ClInclude Include="LayerButton.h">
+      <Filter>Ui</Filter>
+    </ClInclude>
+    <ClInclude Include="Maths.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Command.h">
+      <Filter>Command</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
