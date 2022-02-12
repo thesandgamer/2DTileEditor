@@ -83,9 +83,16 @@ void LayersManager::ProcessInputs()
 
 			}
 		}
+
+
 		//Check si la position de la souris et dans la position du layer
 	}
 	
+	if (IsKeyPressed(KEY_F1))
+	{
+		Game::instance().GetCommandManager().CtrlZ();
+	}
+
 	if (IsKeyPressed(KEY_DELETE))
 	{
 		RemoveLayer();

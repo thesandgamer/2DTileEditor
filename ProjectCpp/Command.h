@@ -43,7 +43,13 @@ class CommandManager
 public:
 	CommandManager() {};
 
-	void CtrlZ() { commandList.top()->undo();}
+	void CtrlZ() { 
+		if (commandList.size() > 0)
+		{
+			commandList.top()->undo();
+
+		}
+	}
 
 	stack<Command*>* GetCommandList() { return &commandList; }
 
